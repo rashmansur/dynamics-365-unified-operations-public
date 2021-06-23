@@ -45,6 +45,7 @@ Because environments that are deployed by using the [self-service deployment](in
 
 - **AOT deployable package** – A deployable package that is generated from application metadata and source code. This type of deployable package is created in a **build** environment.
 - **Binary update package** – A deployable package that contains dynamic-link libraries (DLLs), and other binaries and metadata that the platform and application depend on. This type of package is released by Microsoft.
+- **Merged package** – A package that is created by combining one package of each type. For example, you can merge one binary update package and one AOT package, or one AOT package and one Commerce deployable package. The packages are merged in the Asset library for the project in LCS
 
 ## Development Application Lifecycle Management (ALM) flow
 
